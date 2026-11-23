@@ -1,0 +1,21 @@
+{
+  "name": "Forge — strength & conditioning",
+  "short_name": "Forge",
+  "description": "Full-body strength program, workout tracker, Norwegian 4x4 and Zone 2 timers. Works offline.",
+  "id": "./",
+  "start_url": "./#today",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0d0d0c",
+  "theme_color": "#0d0d0c",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ],
+  "shortcuts": [
+    { "name": "Today's workout", "url": "./#today", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] },
+    { "name": "Cardio timers", "url": "./#cardio", "icons": [{ "src": "icon-192.png", "sizes": "192x192" }] }
+  ]
+}
